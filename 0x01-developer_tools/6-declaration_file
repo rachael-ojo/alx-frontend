@@ -1,2 +1,5 @@
-marginBottom: '0.5rem'
-coming from a CSS-in-JS solution or a JavaScript-based styling approach
+<!-- Instead of inline styles -->
+<div style={{ marginBottom: '0.5rem' }}>Content</div>
+
+<!-- Use a class from freelancer.css -->
+<div class="margin-bottom-small">Content</div>
