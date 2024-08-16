@@ -1,0 +1,74 @@
+/* styles/4-style.css */
+
+/* Define custom font-size properties for the root element */
+:root {
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+}
+
+/* Set font size in the html element to 62.5% of the normal size */
+html {
+    font-size: 62.5%;
+}
+
+/* Set font size for all fonts in the body to font-size-medium */
+body {
+    font-size: var(--font-size-medium);
+}
+
+/* Apply font sizes where needed, e.g., for headings */
+h1 {
+    font-size: var(--font-size-xx-large);
+}
+
+h2 {
+    font-size: var(--font-size-x-large);
+}
+
+h3 {
+    font-size: var(--font-size-large);
+}
+
+h4 {
+    font-size: var(--font-size-medium);
+}
+
+h5 {
+    font-size: var(--font-size-small);
+}
+
+h6 {
+    font-size: var(--font-size-small);
+}
+
+/* Reset the font-family for body and headings from previous styles */
+body {
+    font-family: var(--font-family-base);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+
+/* Reset the foreground color for all anchor elements to text-color */
+a {
+    color: var(--text-color);
+}
+
+/* Hide elements with the class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* Reset the color for elements with the class section-tagline to color-primary */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Reset the color for elements with the class card-category to color-primary */
+.card-category {
+    color: var(--color-primary);
+}

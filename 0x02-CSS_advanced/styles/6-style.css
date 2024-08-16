@@ -1,0 +1,89 @@
+/* styles/5-style.css */
+
+/* Define custom font-weight properties for the root element */
+:root {
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+}
+
+/* Set the font-weight for all fonts in the body to font-weight-regular */
+body {
+    font-weight: var(--font-weight-regular);
+}
+
+/* Set the font-weight for all headings to font-weight-bold */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: var(--font-weight-bold);
+}
+
+/* Apply previously defined font properties and styles */
+
+/* Define custom font-size properties */
+:root {
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+}
+
+/* Set font size in the html element to 62.5% of the normal size */
+html {
+    font-size: 62.5%;
+}
+
+/* Set font size for all fonts in the body to font-size-medium */
+body {
+    font-size: var(--font-size-medium);
+    font-family: var(--font-family-base);
+}
+
+/* Apply font sizes for headings */
+h1 {
+    font-size: var(--font-size-xx-large);
+}
+
+h2 {
+    font-size: var(--font-size-x-large);
+}
+
+h3 {
+    font-size: var(--font-size-large);
+}
+
+h4 {
+    font-size: var(--font-size-medium);
+}
+
+h5 {
+    font-size: var(--font-size-small);
+}
+
+h6 {
+    font-size: var(--font-size-small);
+}
+
+/* Reset the font-family for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+
+/* Reset the foreground color for all anchor elements to text-color */
+a {
+    color: var(--text-color);
+}
+
+/* Hide elements with the class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* Reset the color for elements with the class section-tagline to color-primary */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Reset the color for elements with the class card-category to color-primary */
+.card-category {
+    color: var(--color-primary);
+}

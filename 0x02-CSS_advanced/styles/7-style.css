@@ -1,0 +1,89 @@
+/* styles/6-style.css */
+
+/* Define custom font-family properties for the root element */
+:root {
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
+/* Set the font-size in the html element to 62.5% of the normal size */
+html {
+    font-size: 62.5%;
+}
+
+/* Set the font-size for all fonts in the body to font-size-medium */
+body {
+    font-size: var(--font-size-medium);
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-regular);
+}
+
+/* Apply font sizes for headings */
+h1 {
+    font-size: var(--font-size-xx-large);
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
+h2 {
+    font-size: var(--font-size-x-large);
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
+h3 {
+    font-size: var(--font-size-large);
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
+h4 {
+    font-size: var(--font-size-medium);
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
+h5 {
+    font-size: var(--font-size-small);
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
+h6 {
+    font-size: var(--font-size-small);
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
+/* Reset the foreground color for all anchor elements to text-color */
+a {
+    color: var(--text-color);
+}
+
+/* Hide elements with the class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* Reset the color for elements with the class section-tagline to color-primary */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Reset the color for elements with the class card-category to color-primary */
+.card-category {
+    color: var(--color-primary);
+}

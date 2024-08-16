@@ -1,0 +1,37 @@
+/* styles/3-style.css */
+
+/* Define custom font-family properties for the root element */
+:root {
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Set the font-family for the body to font-family-base */
+body {
+    font-family: var(--font-family-base);
+}
+
+/* Set the font-family for all 6 levels of section headings to font-family-title */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+
+/* Reset the foreground color for all anchor elements to text-color */
+a {
+    color: var(--text-color);
+}
+
+/* Hide elements with the class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* Reset the color for elements with the class section-tagline to color-primary */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Reset the color for elements with the class card-category to color-primary */
+.card-category {
+    color: var(--color-primary);
+}
