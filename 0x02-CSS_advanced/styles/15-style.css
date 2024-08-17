@@ -1,0 +1,11 @@
+/* Universal box-sizing rule */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Existing html styling */
+html {
+    /* Your existing styles for html */
+}

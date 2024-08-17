@@ -1,0 +1,23 @@
+:root {
+  --header-padding: 4rem 0 0;
+  --header-logo-position: relative;
+  --header-logo-link-display: inline-block;
+  --header-logo-link-position: absolute;
+  --header-logo-link-top: -1rem;
+  --header-logo-link-left: 0;
+}
+
+.header {
+  padding: var(--header-padding); /* Applies padding to the header */
+}
+
+.header-logo {
+  position: var(--header-logo-position); /* Positions the header-logo */
+}
+
+.header-logo a {
+  display: var(--header-logo-link-display); /* Sets the display property for links */
+  position: var(--header-logo-link-position); /* Positions the links */
+  top: var(--header-logo-link-top); /* Sets vertical position */
+  left: var(--header-logo-link-left); /* Sets horizontal position */
+}

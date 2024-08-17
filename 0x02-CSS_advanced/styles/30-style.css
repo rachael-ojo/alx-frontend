@@ -1,0 +1,50 @@
+.card-work .card-outer {
+  position: relative; /* Relatively positions the element */
+  overflow: hidden; /* Hides any overflow */
+}
+
+.card-work .card-image img {
+  height: 30rem; /* Sets the height */
+  width: 100%; /* Sets the width */
+  object-fit: cover; /* Ensures the image covers the element */
+  vertical-align: bottom; /* Vertically aligns the image to the bottom */
+}
+
+.card-work .card-inner {
+  position: absolute; /* Absolutely positions the element */
+  top: -0.1rem; /* Vertically positions the element */
+  left: -0.1rem; /* Horizontally positions the element */
+  right: -0.1rem; /* Horizontally positions the element */
+  z-index: 1; /* Sets the z-order */
+}
+
+.card-work:hover .card-inner {
+  background-color: rgba(0, 0, 0, 0.7); /* Sets the background color on hover */
+}
+
+.card-work .card-title {
+  text-align: center; /* Centers the text */
+  margin: 0; /* Removes margins all around */
+  opacity: 0; /* Sets opacity to its lowest value */
+  height: 100%; /* Sets the height to 100% */
+  position: relative; /* Positions the element relative */
+}
+
+.card-work .card-title a {
+  display: block; /* Makes the link display as a block element */
+  text-decoration: none; /* Removes text decoration */
+  padding-top: 45%; /* Adds padding on the top */
+}
+
+.card-work .card-title a::after {
+  content: ""; /* Sets the content to empty */
+  position: absolute; /* Absolutely positions the pseudo-element */
+  top: 0; /* Sets top position */
+  right: 0; /* Sets right position */
+  bottom: 0; /* Sets bottom position */
+  left: 0; /* Sets left position */
+}
+
+.card-work:hover .card-title {
+  opacity: 1; /* Sets the opacity to 1 on hover */
+}

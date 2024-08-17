@@ -1,0 +1,15 @@
+.card-testimonial {
+  text-align: center; /* Center aligns the text */
+}
+
+.card-testimonial .card-avatar {
+  border-radius: 50%; /* Rounds the radius on all sides to 50% */
+  width: calc(10 * var(--root-element)); /* Sets width to 10x the root element */
+  height: calc(10 * var(--root-element)); /* Sets height to 10x the root element */
+}
+
+.card-testimonial .card-quote cite {
+  display: block; /* Styles <cite> as a block-level element */
+  padding-top: var(--root-element); /* Pads the top with 1x the root element */
+  color: var(--color-primary); /* Sets the foreground color */
+}

@@ -1,0 +1,18 @@
+:root {
+  --nav-item-link-hover: var(--color-white); /* Updates the value of nav-item-link-hover */
+}
+
+nav .nav-link::before {
+  content: ""; /* Sets content to empty */
+  position: absolute; /* Absolutely positions the pseudo-elements */
+  top: 0; /* Vertical position */
+  left: 0; /* Horizontal position */
+  background-color: var(--color-white); /* Sets the background color */
+  width: 0; /* Sets the width */
+  height: 20%; /* Sets the height to 20% of the root element */
+}
+
+nav .nav-item:hover .nav-link::before {
+  background-color: var(--color-primary); /* Changes the background color on hover */
+  width: 100%; /* Sets the width to 100% on hover */
+}

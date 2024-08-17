@@ -1,0 +1,9 @@
+.row {
+  /* Existing styles for .row */
+}
+
+.row:after {
+  content: ""; /* No content */
+  display: table; /* Displayed as a table */
+  clear: both; /* Clears floating elements */
+}
